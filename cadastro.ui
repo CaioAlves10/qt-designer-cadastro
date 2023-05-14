@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>540</width>
+    <height>500</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="0" column="0">
+     <widget class="QFrame" name="frame_2">
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(157, 157, 234);
+</string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout">
+       <item>
+        <widget class="QLabel" name="tituloCadastro">
+         <property name="styleSheet">
+          <string notr="true">font: 63 16pt &quot;Segoe UI Semibold&quot;;
+background-color: rgb(85, 85, 127);
+color: rgb(255, 255, 255);</string>
+         </property>
+         <property name="text">
+          <string>Cadastro</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="labelNome">
+         <property name="styleSheet">
+          <string notr="true">font: 63 12pt &quot;Segoe UI Semibold&quot;;</string>
+         </property>
+         <property name="text">
+          <string>Nome:</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLineEdit" name="nome">
+         <property name="enabled">
+          <bool>true</bool>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(255, 255, 255);</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="labelEmail">
+         <property name="styleSheet">
+          <string notr="true">font: 63 12pt &quot;Segoe UI Semibold&quot;;</string>
+         </property>
+         <property name="text">
+          <string>E-mail:</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLineEdit" name="email">
+         <property name="enabled">
+          <bool>true</bool>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(255, 255, 255);</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="labelTelefone">
+         <property name="styleSheet">
+          <string notr="true">font: 63 12pt &quot;Segoe UI Semibold&quot;;</string>
+         </property>
+         <property name="text">
+          <string>Telefone:</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLineEdit" name="telefone">
+         <property name="enabled">
+          <bool>true</bool>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(255, 255, 255);</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="labelSexo">
+         <property name="styleSheet">
+          <string notr="true">font: 63 12pt &quot;Segoe UI Semibold&quot;;</string>
+         </property>
+         <property name="text">
+          <string>Sexo:</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QRadioButton" name="feminino">
+         <property name="styleSheet">
+          <string notr="true">font: 10pt &quot;Segoe UI Semilight&quot;;</string>
+         </property>
+         <property name="text">
+          <string>Feminino</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QRadioButton" name="masculino">
+         <property name="styleSheet">
+          <string notr="true">font: 10pt &quot;Segoe UI Semilight&quot;;</string>
+         </property>
+         <property name="text">
+          <string>Masculino</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <spacer name="verticalSpacer">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>10</width>
+           <height>10</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item>
+        <widget class="QPushButton" name="botaoCadastrar">
+         <property name="minimumSize">
+          <size>
+           <width>502</width>
+           <height>25</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>16777215</width>
+           <height>25</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QPushButton {
+font: 63 10pt &quot;Segoe UI Semibold&quot;;
+background-color: rgb(85, 85, 127);
+color: rgb(255, 255, 255);
+}
+QPushButton:hover {
+background-color: rgb(74, 74, 111);
+}</string>
+         </property>
+         <property name="text">
+          <string>Cadastrar</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="botaoExibir">
+         <property name="styleSheet">
+          <string notr="true">QPushButton {
+font: 63 10pt &quot;Segoe UI Semibold&quot;;
+background-color: rgb(85, 85, 127);
+color: rgb(255, 255, 255);
+}
+QPushButton:hover {
+background-color: rgb(74, 74, 111);
+}</string>
+         </property>
+         <property name="text">
+          <string>Exibir</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
